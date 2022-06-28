@@ -293,3 +293,70 @@ h2 {
     align-items: center;
 }
 
+/* FOOTER */
+
+#main__footer {
+    background-color: #242424;
+}
+
+.footer__logo {
+    height: 50px;
+    width: 160px;
+    filter: grayscale(1) invert(1);
+}
+
+.footer__link {
+    text-decoration: none;
+    color: #fff;
+    padding: 16px 8px;
+}
+
+.footer__links {
+    padding: 24px 0;
+}
+
+.copyright {
+    color: #fff;
+}
+
+@media (max-width: 550px) {
+    .nav__links {
+        display: none;
+    }
+
+    .btn__menu {
+        display: block;
+    }
+
+    .highlight {
+        width: 100%;
+    }
+
+    .highlight:not(:last-child) {
+        margin-bottom: 24px;
+    }
+}
+
+/* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
+
+@media (max-width: 768px) {
+    .header__description {
+        padding: 0 24px;
+    }
+
+    .h1 {
+        font-size: 40px;
+    }
+
+    .h2 {
+        font-size: 26px;
+    }
+
+    .button {
+        font-size: 18px;
+    }
+    
+    .book {
+        width: 50%;
+    } 
+}
